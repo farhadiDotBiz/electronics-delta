@@ -1,10 +1,16 @@
+body{
+    background: url("./bg.png");
+    overflow: hidden;
+}
+
 .card {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background: white;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 5px 10px 10px rgba(0, 0, 0, 0.22);
     display: grid;
     font-family: 'Trebuchet MS', sans-serif;
-    height: 200px;
-    margin: 20px auto;
-    width: 350px;
+    height: 190px;
+    margin: 25px auto;
+    width: 450px;
   }
   .front {
     grid-template-columns: repeat(12, 1fr);
@@ -88,7 +94,7 @@
     font-size: 10px;
   }
   .back .personal-info p:first-of-type {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -110,4 +116,3 @@
     grid-column: 8 / span 5;
     grid-row: 10 / span 3;
   }
-  
